@@ -23,7 +23,6 @@ val items = listOf(
     BottomNavigationData(title = "Account", icon = Icons.Rounded.AccountCircle),
 )
 
-
 @Composable
 fun BottomNavigationBar() {
     NavigationBar {
