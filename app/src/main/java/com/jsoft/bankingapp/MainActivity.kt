@@ -43,11 +43,11 @@ fun HomeScreen() {
             modifier = Modifier
                 .padding(padding)
         ) {
-            //        WalletScreen()
-//        CardsScreen()
+            WalletSection()
+            CardsSection()
             Spacer(modifier = Modifier.height(16.dp))
-//        FinanceScreen()
-//        CurrenciesScreen()
+            FinanceSection()
+        CurrenciesSection()
 
         }
 
