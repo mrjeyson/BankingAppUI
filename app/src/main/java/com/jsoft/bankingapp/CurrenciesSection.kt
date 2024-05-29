@@ -229,7 +229,6 @@ fun CurrencyItem(index: Int, width: Dp) {
             modifier = Modifier
                 .width(width),
             verticalAlignment = Alignment.CenterVertically
-
         ) {
             Box(
                 modifier = Modifier
