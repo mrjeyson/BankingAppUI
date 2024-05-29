@@ -231,8 +231,6 @@ fun CurrencyItem(index: Int, width: Dp) {
             verticalAlignment = Alignment.CenterVertically
 
         ) {
-
-
             Box(
                 modifier = Modifier
                     .clip(RoundedCornerShape(8.dp))
