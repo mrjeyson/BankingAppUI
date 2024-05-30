@@ -236,7 +236,6 @@ fun CurrencyItem(index: Int, width: Dp) {
                     .background(GreenStart)
                     .padding(4.dp)
             ) {
-
                 Icon(
                     modifier = Modifier
                         .size(18.dp),
