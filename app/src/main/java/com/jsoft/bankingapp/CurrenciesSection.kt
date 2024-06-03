@@ -224,7 +224,6 @@ fun CurrencyItem(index: Int, width: Dp) {
             .padding(bottom = 16.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
-
         Row(
             modifier = Modifier
                 .width(width),
