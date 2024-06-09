@@ -203,7 +203,6 @@ fun CurrenciesSection() {
                         LazyColumn {
                             items(currencyList.size) { index ->
                                 CurrencyItem(index, width = width)
-
                             }
                         }
                     }
