@@ -211,6 +211,7 @@ fun CurrenciesSection() {
         }
     }
 }
+
 @Composable
 fun CurrencyItem(index: Int, width: Dp) {
     val currency = currencyList[index]
