@@ -87,8 +87,7 @@ val currencyList = listOf(
         sell = 23.54f,
         icon = Icons.Rounded.CurrencyYen,
     ),
-
-    )
+)
 
 @Preview
 @Composable
@@ -211,6 +210,7 @@ fun CurrenciesSection() {
         }
     }
 }
+
 @Composable
 fun CurrencyItem(index: Int, width: Dp) {
     val currency = currencyList[index]
