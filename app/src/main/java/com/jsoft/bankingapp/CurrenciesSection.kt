@@ -89,6 +89,7 @@ val currencyList = listOf(
     ),
 )
 
+
 @Preview
 @Composable
 fun CurrenciesSection() {
