@@ -59,6 +59,7 @@ val currencyList = listOf(
         icon = Icons.Rounded.Euro,
     ),
 
+
     Currency(
         name = "YEN",
         buy = 38.21f,
