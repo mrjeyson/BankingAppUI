@@ -46,13 +46,13 @@ import com.jsoft.bankingapp.ui.theme.GreenStart
 
 
 val currencyList = listOf(
-
     Currency(
         name = "USD",
         buy = 25.35f,
         sell = 29.11f,
         icon = Icons.Rounded.AttachMoney,
     ),
+
     Currency(
         name = "EUR",
         buy = 37.11f,
