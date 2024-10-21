@@ -44,6 +44,8 @@ import androidx.compose.ui.unit.sp
 import com.jsoft.bankingapp.data.Currency
 import com.jsoft.bankingapp.ui.theme.GreenStart
 
+
+
 val currencyList = listOf(
     Currency(
         name = "USD",
