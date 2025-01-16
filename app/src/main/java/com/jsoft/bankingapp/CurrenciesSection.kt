@@ -48,7 +48,6 @@ import com.jsoft.bankingapp.ui.theme.GreenStart
 val currencyList = listOf(
 
 
-
     Currency(
         name = "USD",
         buy = 25.35f,
