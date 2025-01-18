@@ -72,7 +72,6 @@ fun FinanceSection() {
 @Composable
 fun FinanceItem(index: Int) {
 
-
     val finance = financeList[index]
     var lastPaddingEnd = 0.dp
     if (index == financeList.size - 1) {
