@@ -71,6 +71,7 @@ fun FinanceSection() {
 
 @Composable
 fun FinanceItem(index: Int) {
+
     val finance = financeList[index]
     var lastPaddingEnd = 0.dp
     if (index == financeList.size - 1) {
@@ -80,8 +81,6 @@ fun FinanceItem(index: Int) {
     Box(
         modifier = Modifier.padding(start = 16.dp, end = lastPaddingEnd)
     ) {
-
-
         Column(modifier = Modifier
             .clip(RoundedCornerShape(25.dp))
             .background(MaterialTheme.colorScheme.secondaryContainer)
