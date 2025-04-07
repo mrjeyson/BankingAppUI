@@ -54,7 +54,6 @@ val currencyList = listOf(
 
 
 
-
     Currency(
         name = "USD",
         buy = 25.35f,
