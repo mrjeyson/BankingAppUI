@@ -19,7 +19,6 @@ import com.jsoft.bankingapp.data.BottomNavigationData
 val items = listOf(
 
 
-
     BottomNavigationData(title = "Home", icon = Icons.Rounded.Home),
     BottomNavigationData(title = "Wallet", icon = Icons.Rounded.Wallet),
     BottomNavigationData(title = "Notification", icon = Icons.Rounded.Notifications),
