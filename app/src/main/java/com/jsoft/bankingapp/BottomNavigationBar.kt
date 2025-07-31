@@ -25,7 +25,6 @@ val items = listOf(
 
 @Composable
 fun BottomNavigationBar() {
-
     NavigationBar {
         Row(
             modifier = Modifier.background(MaterialTheme.colorScheme.inverseOnSurface)
